@@ -1,4 +1,4 @@
-# Online Bookshop & e-learning
+# Online Bookshop
 
 This is an online book shop project developed by **PHP framework (CodeIgniter)**. This application is like an online books market place, where user allows to buy and sell their books. Here user can also get different types of e-books as pdf books based on the category. This project also has many other cool functionalities.
 
@@ -32,12 +32,7 @@ This project is developed by,
 
 **Note:** The database name of this project is **"ebookshop"** and **ebookshop.sql** file is inside the **'tool'** folder. If you want to clone and use the project, then after cloning rename the base folder as **"E-Bookshop"**. Otherwise this application will not work properly. If you want to make change the base folder as you want, you have to change the base_url from config and also change .htaccess file. 
 
-**Fell free to frok and cotributing in this project. For more query related to this project, contact me through email.**
+Admin login
+admin@ystem.com
+pass- admin
 
-Thanks & Regards
-
-*[Tahmid Nishat](https://tahmid-ni7.github.io/portfolio/)*
-
-`Email: tahmid.ni7@gmail.com`
-
-#### Have a look to project interface [screenshots](https://imgur.com/a/vPxwOiF) here.
