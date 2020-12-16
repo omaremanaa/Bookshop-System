@@ -165,7 +165,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         <div class="copy-right">
-            <p><i class="fas fa-copyright"></i> 2019 Tahmid Nishat, Inc. <br>All right reserved</p>
+            <p><i class="fas fa-copyright"></i> FSKTM Group 1.8 <br>All right reserved</p>
         </div>
     </div>
 </div>
