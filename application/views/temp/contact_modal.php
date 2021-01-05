@@ -19,7 +19,7 @@
         <br>
         <div>
             <h6>Thanks & Regards</h6>
-            <a href="#" class="text-info"><b>Tahmid Nishat</b></a>
+            <a href="#" class="text-info"><b>FSKTM GROUP 1.8</b></a>
             <p>Founder of Bookshop and E-learning.</p>
         </div>
       </div>
