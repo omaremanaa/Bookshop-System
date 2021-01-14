@@ -264,7 +264,7 @@ class admin extends CI_Controller {
 		$this->form_validation->set_rules('categoryId', 'Category', 'trim|required');
 
 
-		if(($this->form_validation->run() && $this->upload->do_upload()) == FALSE)
+		if(($this->form_validation->run()) == FALSE)
 		{
 
 			$view['admin_view'] = "admin/add_books";
@@ -334,7 +334,7 @@ class admin extends CI_Controller {
 		$this->form_validation->set_rules('categoryId', 'Category', 'trim|required');
 
 
-		if(($this->form_validation->run() && $this->upload->do_upload()) == FALSE)
+		if(($this->form_validation->run()) == FALSE)
 		{
 
 			if($this->admin_model->get_book_detail($id))
@@ -481,7 +481,7 @@ class admin extends CI_Controller {
 		$this->form_validation->set_rules('categoryId', 'Category', 'trim|required');
 
 
-		if(($this->form_validation->run() && $this->upload->do_upload()) == FALSE)
+		if(($this->form_validation->run()) == FALSE)
 		{
 
 			$view['admin_view'] = "admin/add_ebooks";
@@ -653,7 +653,7 @@ class admin extends CI_Controller {
 		$this->form_validation->set_rules('categoryId', 'Category', 'trim|required');
 
 
-		if(($this->form_validation->run() && $this->upload->do_upload()) == FALSE)
+		if(($this->form_validation->run()) == FALSE)
 		{
 
 			$view['admin_view'] = "admin/add_usedbooks";
@@ -724,7 +724,7 @@ class admin extends CI_Controller {
 		$this->form_validation->set_rules('categoryId', 'Category', 'trim|required');
 
 
-		if(($this->form_validation->run() && $this->upload->do_upload()) == FALSE)
+		if(($this->form_validation->run()) == FALSE)
 		{
 
 			if($this->admin_model->get_book_detail($id))
