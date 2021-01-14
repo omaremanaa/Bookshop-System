@@ -62,7 +62,7 @@ class User_home extends CI_Controller {
 		$this->form_validation->set_rules('conditionBox', 'Check box', 'trim|required');
 
 
-		if(($this->form_validation->run() && $this->upload->do_upload()) == FALSE)
+		if(($this->form_validation->run()) == FALSE)
 		{
 
 			$view['user_view'] = "users/sell_books";
